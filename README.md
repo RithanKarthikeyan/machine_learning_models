@@ -27,5 +27,7 @@ Simply activate the extension, open an email, and get instant spam detection res
 ---
 
 ## 📂 Project Structure
-
+machine_learning_models/
+├── spam_model/ # Machine Learning model (training & prediction)
+└── spam_chrome_extension/ # Chrome extension file
 
