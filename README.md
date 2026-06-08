@@ -22,7 +22,8 @@ Simply activate the extension, open an email, and get instant spam detection res
 🟢 The trained model is connected to a **Chrome Extension**  
 🟢 When an email is opened, the extension predicts:
 - ✅ Safe  
-- 🚫 Spam  
+- 🚫 Spam
+- 💲Promotional
 
 ---
 
