@@ -26,7 +26,7 @@ class EmailInput(BaseModel):
 
 class PredictionOutput(BaseModel):
     label: str
-    confidence: float
+    
 
 # Promotion keywords (RULE-BASED LAYER)
 PROMO_KEYWORDS = [
@@ -47,7 +47,7 @@ def predict_email(data: EmailInput):
     if any(word in text for word in PROMO_KEYWORDS):
         return {
             "label": "promotion",
-            "confidence": 90.0
+            
         }
 
     # 🔹 RULE 2: ML prediction
